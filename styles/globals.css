@@ -1,0 +1,34 @@
+@import url(./layout/nav.css);
+@import url(./layout/home-list.css);
+@import url(./layout/animate-image.css);
+@import url(./layout/projects.css);
+@import url(./layout/paragraph-section.css);
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.overflow { overflow: hidden;}
+.section { margin: 300px 0;}
+.italic {
+  font-style: italic;
+}
+
+.underline { text-decoration: underline;}

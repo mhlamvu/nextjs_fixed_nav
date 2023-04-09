@@ -1,0 +1,39 @@
+.project-nav {
+    z-index: 1;
+    min-height: 100vh;
+    padding-left: 50px;
+    position: fixed;
+    mix-blend-mode: difference;
+    width: fit-content;
+    transform: scale(1);
+    will-change: transform 1s cubic-bezier(.86, 0, .07, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.project-nav a {
+    font-family: "Bodoni Moda";
+    font-size: 2vw;
+    font-weight: 100;
+    line-height: 1.2;
+}
+
+.project-nav li {
+    height: fit-content;
+    overflow: hidden;
+    will-change: opacity;
+    transition: opcaity .4s ease;
+    margin-bottom: .4em;
+    opacity: .24;
+    visibility: inherit;
+}
+
+.project-nav li:hover {
+    opacity: 1;
+}
+
+.home {
+    padding-bottom: 2rem;
+}
